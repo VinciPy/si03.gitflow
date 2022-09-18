@@ -34,47 +34,79 @@
         <!-- Questions section-->
         <section class="bg-light d-flex" id="questions">
             <div class="container">
-                <div class="card">
+                <div class="card m-4">
                     <div class="card-header">
-                        Featured
+                        git flow init -d
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">git flow init -d</h5>
+                        <p class="card-text">Inicie o git-flow no projeto com este comando, cria-se toda estrutura de branch padrão que o git-flow necessita, sem precisar da confirmação.</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card m-4">
                     <div class="card-header">
-                        Featured
+                        git flow feature start MYFEATURE
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">git flow feature start MYFEATURE</h5>
+                        <p class="card-text">Com esse comando, foi criado uma branch a partir da develop e automaticamente ele te “joga” para essa branch.</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card m-4">
                     <div class="card-header">
-                        Featured
+                        git flow feature finish MYFEATURE 
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">
+                        git flow feature finish MYFEATURE 
+                    </h5>
+                        <p class="card-text"> Finaliza o desenvolvimento de uma funcionalidade. Esse comando faz o seguinte
+                            Mescla MYFEATURE no 'develop'
+                            Remove o branch da funcionalidade
+                            Volta para o branch 'develop</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card m-4">
                     <div class="card-header">
-                        Featured
+                        git flow feature pull MYFEATURE 
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">git flow feature pull MYFEATURE</h5>
+                        <p class="card-text">Obtenha uma funcionalidade publicada por outro usuário e acompanhe as alterações remotas.</p>
+                    </div>
+                </div>
+
+                <div class="card m-4">
+                    <div class="card-header">
+                        git flow release start RELEASE [BASE] 
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"> git flow release start RELEASE [BASE] </h5>
+                        <p class="card-text">Para começar uma versão, use o comando git flow release. Ele
+                            cria um branch da versão baseado no branch 'develop'. Você pode opcionalmente fornecer um hash sha-1 do commit [BASE] de onde começar a versão. O commit precisa estar no branch 'develop'</p>
+                    </div>
+                </div>
+
+                <div class="card m-4">
+                    <div class="card-header">
+                        git flow hotfix start VERSION [BASENAME] 
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">git flow hotfix start VERSION [BASENAME]</h5>
+                        <p class="card-text">O argumento version marca o nome do novo hotfix. Opcionalmente, você pode especificar um basename para começar.</p>
+                    </div>
+                </div>
+
+                <div class="card m-4">
+                    <div class="card-header">
+                        git flow hotfix finish VERSION 
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">git flow hotfix finish VERSION </h5>
+                        <p class="card-text">Ao finalizar um hotfix ele é mesclado tanto no develop quanto no master. Além disso, o merge no master é etiquetado.</p>
                     </div>
                 </div>
             </div>
