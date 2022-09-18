@@ -1,1 +1,5 @@
 # si03.gitflow
+
+# 4- Quais as vantagens do Git?
+
+Fácil de trabalhar pois a maioria das operações do Git são rápidas, especialmente porque são efetuadas na cópia do seu repositório local. O git trackeia a movimentação dos arquivos, possibilitando um histórico de modificações visível. Ele também permite que você ignore certos arquivos com o .gitignore, os arquivos que forem especificados nele, não irão para o repositório, vão ficar armazenados localmente apenas. O Git também disponibiliza as branches, quando você precisa trabalhar numa nova feature experimental sem interferir no código principal do seu projeto. Eles também permitem que diferentes desenvolvedores trabalhem em diferentes features sem interferir no trabalho de cada um. Quando as features estiverem prontas, eles podem fazer o merge das mudanças do branch para o branch principal.
