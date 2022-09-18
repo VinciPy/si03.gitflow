@@ -16,6 +16,11 @@ O git é um dos melhores gerencimentos de versões, devido as suas caracteresiti
 
 Fácil de trabalhar pois a maioria das operações do Git são rápidas, especialmente porque são efetuadas na cópia do seu repositório local. O git trackeia a movimentação dos arquivos, possibilitando um histórico de modificações visível. Ele também permite que você ignore certos arquivos com o .gitignore, os arquivos que forem especificados nele, não irão para o repositório, vão ficar armazenados localmente apenas. O Git também disponibiliza as branches, quando você precisa trabalhar numa nova feature experimental sem interferir no código principal do seu projeto. Eles também permitem que diferentes desenvolvedores trabalhem em diferentes features sem interferir no trabalho de cada um. Quando as features estiverem prontas, eles podem fazer o merge das mudanças do branch para o branch principal.
 
+# 5- Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?
+
+Um dos principais objetivos do versionamento de software é proporcionar o trabalho em equipe, garantindo que todos os membros do time tenham acesso aos arquivos do projeto e identificando o que cada um está fazendo e as mudanças já realizadas. Com o versionamento de software, é possível criar pequenas versões internas, na qual cada um dos programadores fará suas alterações sem se preocupar com os demais membros do time. Isso porque cada versão é isolada, evitando problemas. Ao mesmo tempo, outros colaboradores podem acessar essas pequenas versões caso necessário, tanto para auxiliar na demanda como para verificar o andamento das tarefas designadas ao programador.
+Ao finalizar essa tarefa, o desenvolvedor pode realizar a inclusão de suas alterações na versão comum, o que leva a função a ser disponibilizada aos demais. Caso algum erro aconteça, o controle de versionamento permite reverter as alterações para uma versão anterior, na qual as mudanças não existiam.
+
 # Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.
 
 ### CVS
